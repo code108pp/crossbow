@@ -4,7 +4,7 @@ let gameover = new Audio("gameover.mp3")
 let turn = "X"
 let isgameover = false;
 
-// music.play()
+music.play()
 
 // Function to change the turn
 const changeTurn = ()=>{
