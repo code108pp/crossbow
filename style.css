@@ -29,15 +29,15 @@ nav{
 
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(4, 7.5vw);
+    grid-template-columns: repeat(4, 7.5vw);
     font-family: 'Oswald', sans-serif;
     position: relative;
 }
 
 .box{
     border: 2px solid black;
-    font-size: 8vw;
+    font-size: 6vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -70,7 +70,6 @@ nav{
 
 .imgbox img{
     width: 0;
-    transition: width 1s ease-in-out;
     margin: 0.001px 100px;
 }
 
@@ -102,12 +101,13 @@ nav{
 }
 
 .line{
-    background-color: black;
-    height: 3px;
+    background-color: rgb(84, 110, 158);
+    height: 4px;
     width: 0;
     position: absolute;
-    background-color: #aec436;
+    background-color: #e4880f;
     transition: width 1s ease-in-out;
+
 }
 
 @media screen and (max-width: 950px)
@@ -122,7 +122,7 @@ nav{
         font-size: 1.5rem;
     }
     .container { 
-        grid-template-rows: repeat(3, 20vw);
-        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(4,14vw);
+        grid-template-columns: repeat(4, 14vw);
     }
 }
